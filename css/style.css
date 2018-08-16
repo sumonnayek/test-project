@@ -100,7 +100,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     padding: 0 10px;
-    background-color: rgb(185, 165, 165);
+    background-color: rgb(131, 223, 240);
     border-radius: 10px 10px 0 0;
 }
 
@@ -117,7 +117,8 @@ footer{
     padding: 5px;
     text-align: center;
     background-color:rgb(245, 235, 218);
-    width: 100%
+    width: 100%;
+    font-size: 13px;
 }
 .msg-cont {
     display: flex;
@@ -270,3 +271,57 @@ footer{
     -webkit-animation-name: fadeInUpBig;
     animation-name: fadeInUpBig;
 }
+
+/* Q & A part */
+.chat-space{
+    min-height: 30px;
+    max-height: 80px;
+    width: 100%;
+    overflow-y: scroll;
+    background-color:rgb(243, 241, 237);
+}
+.chat-space::-webkit-scrollbar{
+    width: 5px;
+}
+.chat-space::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgba(0,0,0,0.1);
+}
+.msg-box-div{
+    width: 100%;
+    margin: 10px 0;
+    /* overflow: auto; */
+    font-size: 14px;
+}
+.msg-box-div:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.msg-box-receive{
+    /* width: 50%; */
+    background-color: skyblue;
+    margin: 5px 5px;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px;
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.msg-box-send{
+    /* width: 50%; */
+    background-color: rgb(207, 226, 233);
+    margin: 5px 5px;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px 10px 0 10px;
+    padding: 5px;
+    max-width: 150px;
+    float: right;
+    word-wrap: break-word;
+}
+
