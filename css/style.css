@@ -275,7 +275,7 @@ footer{
 /* Q & A part */
 .chat-space{
     min-height: 30px;
-    max-height: 80px;
+    max-height: 150px;
     width: 100%;
     overflow-y: scroll;
     background-color:rgb(243, 241, 237);
@@ -308,8 +308,9 @@ footer{
     border: 1px;
     border-radius: 10px 10px 10px 0;
     padding: 5px;
-    max-width: 150px;
+    max-width: 200px;
     word-wrap: break-word;
+    float: left;
 }
 
 .msg-box-send{
@@ -320,7 +321,7 @@ footer{
     border: 1px;
     border-radius: 10px 10px 0 10px;
     padding: 5px;
-    max-width: 150px;
+    max-width: 200px;
     float: right;
     word-wrap: break-word;
 }

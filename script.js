@@ -15,7 +15,7 @@ const message = document.querySelector('.input-msg');
 var Q1 = "what is your name?";
 var Q2 = "how are you?";
 var Q3 = "how is todays weather";
-var Q4 = "at what time it will be dark outsidedfsdfsdfsfsdf";
+var Q4 = "at what time it will be dark outside";
 
 function inputLength() {
 	return message.value.length;
